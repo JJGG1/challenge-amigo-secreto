@@ -14,4 +14,7 @@ function agregarAmigo(){
 
     // Actualizar el array de amigos
     amigos.push(nombre);
+
+    // Limpiar el campo de entrada
+    document.getElementById('amigo').value = '';
 }
