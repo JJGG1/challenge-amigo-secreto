@@ -9,5 +9,6 @@ function agregarAmigo(){
     // Validar la entrada
     if (nombre === ""){
         alert("Por favor, inserte un nombre");
+        return;
     }
 }
