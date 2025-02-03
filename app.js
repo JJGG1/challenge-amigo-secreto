@@ -22,5 +22,5 @@ function agregarAmigo(){
 // Implementación de una función para actualizar la lista de amigos
 function actualizarListaAmigo(){
     // Obtener el elemento de la lista
-    let listaAmigos = document.getElementById('listaAmigos');
+    let lista = document.getElementById('listaAmigos');
 }
