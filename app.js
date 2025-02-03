@@ -17,6 +17,9 @@ function agregarAmigo(){
 
     // Limpiar el campo de entrada
     document.getElementById('amigo').value = '';
+
+    // Actualiza lista de amigos
+    actualizarListaAmigo();
 }
 
 // Implementación de una función para actualizar la lista de amigos
@@ -32,5 +35,7 @@ function actualizarListaAmigo(){
         // Crear un elemento de lista
         let li = document.createElement('li');
         li.textContent = amigos[i];
+        //Agregar elementos a la lista
+        lista.appendChild(li);
     }
 }
