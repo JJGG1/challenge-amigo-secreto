@@ -26,4 +26,11 @@ function actualizarListaAmigo(){
 
     // Limpiar la lista existente
     lista.innerHTML = '';
+
+    // Iterar sobre el arreglo
+    for ( let i = 0; i < amigos.length; i++ ){
+        // Crear un elemento de lista
+        let li = document.createElement('li');
+        li.textContent = amigos[i];
+    }
 }
