@@ -4,5 +4,6 @@ let amigos = [];
 
 // Implementación de una función para agregar amigos
 function agregarAmigo(){
-    
+    // Capturar el valor del campo de entrada
+    let nombre = document.getElementById('amigo').ariaValueMax.trim();
 }
