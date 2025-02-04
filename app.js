@@ -50,4 +50,8 @@ function sortearAmigo(){
     // Generar un indice aleatorio
     let indiceAleatorio = Math.floor(Math.random() * amigos.length);
     //console.log(indiceAleatorio);
+
+    // Obtener el nombre sorteado
+    let amigoSorteado = amigos[indiceAleatorio];
+    //console.log(amigoSorteado);
 }
