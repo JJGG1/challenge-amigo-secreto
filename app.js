@@ -61,7 +61,7 @@ function sortearAmigo(){
     document.getElementById('resultado').innerHTML = amigoSorteado;
 
 }
-
+// Función para limpiar los valores mostrados al usuario
 function limpiarValores(id) {
     document.getElementById(id).innerHTML = '';
 }
