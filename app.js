@@ -54,6 +54,11 @@ function sortearAmigo(){
     // Obtener el nombre sorteado
     let amigoSorteado = amigos[indiceAleatorio];
     //console.log(amigoSorteado);
+
+    // Mostrar el resulado
+    limpiarLista();
+    document.getElementById('resultado').innerHTML = amigoSorteado;
+
 }
 
 function limpiarLista() {
