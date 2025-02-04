@@ -28,7 +28,7 @@ function actualizarListaAmigo(){
     let lista = document.getElementById('listaAmigos');
 
     // Limpiar la lista existente
-    lista.innerHTML = '';
+    limpiarLista();
 
     // Iterar sobre el arreglo
     for ( let i = 0; i < amigos.length; i++ ){
@@ -54,4 +54,8 @@ function sortearAmigo(){
     // Obtener el nombre sorteado
     let amigoSorteado = amigos[indiceAleatorio];
     //console.log(amigoSorteado);
+}
+
+function limpiarLista() {
+    document.getElementById('listaAmigos').innerHTML = '';
 }
