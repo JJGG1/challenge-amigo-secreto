@@ -39,3 +39,7 @@ function actualizarListaAmigo(){
         lista.appendChild(li);
     }
 }
+
+function sortearAmigo(){
+    
+}
