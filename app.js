@@ -41,5 +41,9 @@ function actualizarListaAmigo(){
 }
 
 function sortearAmigo(){
-    
+    //Validar que haya amigos disponibles
+    if (amigos.length === 0){
+        alert("No hay amigos para sortear, ingrese nombres de amigos para sortear");
+        return;
+    }
 }
