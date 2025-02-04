@@ -28,7 +28,7 @@ function actualizarListaAmigo(){
     let lista = document.getElementById('listaAmigos');
 
     // Limpiar la lista existente
-    limpiarLista();
+    limpiarValores('listaAmigos');
 
     // Iterar sobre el arreglo
     for ( let i = 0; i < amigos.length; i++ ){
@@ -38,6 +38,7 @@ function actualizarListaAmigo(){
         //Agregar elementos a la lista
         lista.appendChild(li);
     }
+    limpiarValores('resultado');
 }
 
 function sortearAmigo(){
@@ -56,11 +57,11 @@ function sortearAmigo(){
     //console.log(amigoSorteado);
 
     // Mostrar el resulado
-    limpiarLista();
+    limpiarValores('listaAmigos');
     document.getElementById('resultado').innerHTML = amigoSorteado;
 
 }
 
-function limpiarLista() {
-    document.getElementById('listaAmigos').innerHTML = '';
+function limpiarValores(id) {
+    document.getElementById(id).innerHTML = '';
 }
