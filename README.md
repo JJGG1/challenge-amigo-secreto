@@ -5,6 +5,7 @@
 ![ÚLTIMA ACTUALIZACIÓN](https://img.shields.io/badge/ÚLTIMA%20ACTUALIZACIÓN-FEBRERO%202025-orange)
 ![NAVEGADORES](https://img.shields.io/badge/SOPORTE%20MULTIPLES%20NAVEGADORES-SÍ-brightgreen)
 ![OFFLINE](https://img.shields.io/badge/ACCESO%20OFFLINE-SÍ-brightgreen)
+![ONLINE](https://img.shields.io/badge/ACCESO%20ONLINE-SÍ-brightgreen)
 
 ## ℹ️ Descripción del proyecto
 
@@ -18,7 +19,16 @@ Esta aplicación permite a los usuarios **ingresar nombres de amigos en una list
 - **Sorteo aleatorio:** Al hacer click en el botón "**Sortear Amigo**", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
 
 ## 📥 Acceso al proyecto
-Para comenzar a utilizar este proyecto, sigue los pasos a continuación:
+
+### 🛜 Online
+Se puede acceder a la versión en línea de este proyecto a través del siguiente enlace:
+
+[Juega al Amigo Secreto en línea](https://jjgg1.github.io/challenge-amigo-secreto/)
+
+Para más detalles sobre cómo ejecutar el proyecto localmente, consulta la siguiente sección.
+
+### 🖥️ Ejecutar de manera local
+Para comenzar a utilizar este proyecto de manera local, sigue los pasos a continuación:
 
 1. **Descargar el repositorio:**
    - Haz clic en el botón de "**Code**" en la página del repositorio y selecciona "**Download ZIP**".
@@ -30,7 +40,7 @@ Para comenzar a utilizar este proyecto, sigue los pasos a continuación:
 2. **Extraer los archivos (si descargaste el ZIP):**
    - Descomprime el archivo ZIP en tu computadora.
   
-## 🖥️ Abrir y Ejecutar el Proyecto
+#### 🖥️ Abrir y Ejecutar el Proyecto
 
 1. **Ejecutar el archivo HTML:**
    - Abre la carpeta del proyecto y localiza el archivo principal `index.html`.
