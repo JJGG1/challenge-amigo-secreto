@@ -18,6 +18,17 @@ Esta aplicación permite a los usuarios **ingresar nombres de amigos en una list
 - **Visualizar la lista:** Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
 - **Sorteo aleatorio:** Al hacer click en el botón "**Sortear Amigo**", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
 
+### 🎥 Video demostrativo
+¡Descubre cómo funciona el Juego del Amigo Secreto! En este video, se muestra los detalles del funcionamiento del juego, para que puedas disfrutarlo al máximo con tus amigos y familiares. Haz **click en la imagen para ver el video** y aprender a jugar. 
+
+<div align="center">
+    <a href="https://youtu.be/sgDNvE_ZRUM">
+        <img src="https://github.com/user-attachments/assets/7ca4b93d-4d57-407b-b3f0-7b8009624e0c" alt="Ver el video del funcionamiento del Juego del Amigo Secreto" width="320" height="180">
+    </a>
+</div>
+
+> **Nota:** Para acceder al juego, consulta la sección **Acceso al proyecto** a continuación. ¡Disfruta del video!
+
 ## 📥 Acceso al proyecto
 
 ### 🛜 Online
